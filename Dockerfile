@@ -1,5 +1,5 @@
 # node 构建
-FROM node:16-alpine as build-stage
+FROM node:20-alpine as build-stage
 # 署名
 MAINTAINER lifezekun 'lifezekun@163.com'
 WORKDIR /app
